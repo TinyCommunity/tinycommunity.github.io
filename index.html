@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>TinyCommunity</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro">
+<style>
+body,h1 {font-family: "Source Sans Pro", sans-serif}
+body, html {height: 100%;}
+.bg {
+  height: 100%;
+  background: linear-gradient(90deg, #eeeeee 31px, transparent 1%) center, linear-gradient(#eeeeee 31px, transparent 1%) center, #495b64;
+  background-size: 32px 32px;
+}
+.title {
+    color: #ffca28;
+}
+.subtitle {
+    color: #495b64;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.text-bg {
+    background-color: #eeeeee;
+}
+.divider {
+    margin: auto;
+    width: 40%;
+}
+</style>
+<body>
+
+<div class="bg w3-display-container w3-animate-opacity">
+
+    <!-- for big screens - topleft -->
+    <div class="w3-display-topleft w3-hide-small">
+        <img class="w3-card-2 w3-margin logo" src="./tiny-logo.png" alt="Bleckl Logo"/>
+    </div>
+    <!-- for mobile screens - center -->
+    <div class="w3-display-topmiddle w3-hide-medium w3-hide-large">
+        <img class="w3-card-2 w3-margin logo" src="./tiny-logo.png" alt="Bleckl Logo"/>
+    </div>
+
+    <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top title text-bg">TinyCommunity</h1>
+        <hr class="w3-border-grey divider">
+        <p class="w3-large w3-center subtitle">
+            <span class="text-bg">Check out our <a href="https://github.com/TinyCommunity">GitHub</a></span>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
