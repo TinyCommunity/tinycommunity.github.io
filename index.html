@@ -17,9 +17,11 @@ body, html {height: 100%;}
 }
 .title {
     color: #ffca28;
+    margin: 0;
 }
 .subtitle {
     color: #495b64;
+    margin: 0;
 }
 .logo {
     width: 100px;
@@ -32,6 +34,7 @@ body, html {height: 100%;}
 .divider {
     margin: auto;
     width: 40%;
+    border-color: #495b64;
 }
 </style>
 </head>
@@ -50,7 +53,9 @@ body, html {height: 100%;}
 
     <div class="w3-display-middle">
         <h1 class="w3-xxxlarge w3-animate-top title text-bg">TinyCommunity</h1>
-        <hr class="w3-border-grey divider">
+        <div class="w3-padding-32 text-bg">
+            <hr class="divider">
+        </div>
         <p class="w3-large w3-center subtitle">
             <span class="text-bg">Check out our <a href="https://github.com/TinyCommunity">GitHub</a></span>
         </p>
